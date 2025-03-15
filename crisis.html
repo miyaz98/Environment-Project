@@ -202,24 +202,32 @@
           </div>
      </section>
         <!-- END section -->
-      
+
     <section id="map">
-    <center>
+    <div class="map-container">
         <img src="https://i.imgur.com/Q4ljFxW.png" 
-             alt="The amount and distribution of plastic and microplastic of US coastline" 
-             width="800">
-    </center>
+             alt="The amount and distribution of plastic and microplastic of US coastline">
+    </div>
 </section>
 
-    <style>
-    #map img {
-        max-width: 100%; 
-        height: auto;
-        display: block;
-        margin: 0 auto;
+<style>
+    #map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0; 
     }
+
+    map-container img {
+        max-width: 90%; 
+        max-height: 600px; 
+        display: block;
+        margin: 0 auto; 
+    }
+
+   
 </style>
-    
       <!-- END section -->
       
     <section class="probootstrap_section photo" id="section-crisis7">
